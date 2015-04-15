@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetInfoListAboutFocus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="showCount" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="version" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfoListAboutFocusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInfoListAboutFocusResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MySoapHeader" type="tns:MySoapHeader" />
+      <s:complexType name="MySoapHeader">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="privateKey" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="GetInfomationList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pageIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pageSize" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="time" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="version" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfomationListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInfomationListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="infoId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateInfoClick">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="infoId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateInfoClickResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateInfoClickResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubInfoComment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="infoId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="content" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubInfoCommentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubInfoCommentResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfoCommentList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="infoId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pageIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pageSize" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="time" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfoCommentListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInfoCommentListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPublicCategoryList">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPublicCategoryListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPublicCategoryListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNameBySubjectId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="sid" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNameBySubjectIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNameBySubjectIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPublicCourseList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="subjectId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="page" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pageSize" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="time" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="version" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPublicCourseListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPublicCourseListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PublicCoursePlay">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="courseId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PublicCoursePlayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PublicCoursePlayResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubInfoCourseComment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="courseId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="content" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubInfoCourseCommentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubInfoCourseCommentResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfoCourseCommentList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="courseId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pageIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pageSize" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="time" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfoCourseCommentListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInfoCourseCommentListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPushInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="relationId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="typeId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPushInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPushInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetInfoListAboutFocusSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInfoListAboutFocus" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoListAboutFocusSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInfoListAboutFocusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoListAboutFocusMySoapHeader">
+    <wsdl:part name="MySoapHeader" element="tns:MySoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetInfomationListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInfomationList" />
+  </wsdl:message>
+  <wsdl:message name="GetInfomationListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInfomationListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInfomationListMySoapHeader">
+    <wsdl:part name="MySoapHeader" element="tns:MySoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoMySoapHeader">
+    <wsdl:part name="MySoapHeader" element="tns:MySoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInfoClickSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateInfoClick" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInfoClickSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateInfoClickResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInfoClickMySoapHeader">
+    <wsdl:part name="MySoapHeader" element="tns:MySoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCommentSoapIn">
+    <wsdl:part name="parameters" element="tns:SubInfoComment" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCommentSoapOut">
+    <wsdl:part name="parameters" element="tns:SubInfoCommentResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCommentMySoapHeader">
+    <wsdl:part name="MySoapHeader" element="tns:MySoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCommentListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInfoCommentList" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCommentListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInfoCommentListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCommentListMySoapHeader">
+    <wsdl:part name="MySoapHeader" element="tns:MySoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicCategoryListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPublicCategoryList" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicCategoryListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPublicCategoryListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicCategoryListMySoapHeader">
+    <wsdl:part name="MySoapHeader" element="tns:MySoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetNameBySubjectIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNameBySubjectId" />
+  </wsdl:message>
+  <wsdl:message name="GetNameBySubjectIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNameBySubjectIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNameBySubjectIdMySoapHeader">
+    <wsdl:part name="MySoapHeader" element="tns:MySoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicCourseListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPublicCourseList" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicCourseListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPublicCourseListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicCourseListMySoapHeader">
+    <wsdl:part name="MySoapHeader" element="tns:MySoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="PublicCoursePlaySoapIn">
+    <wsdl:part name="parameters" element="tns:PublicCoursePlay" />
+  </wsdl:message>
+  <wsdl:message name="PublicCoursePlaySoapOut">
+    <wsdl:part name="parameters" element="tns:PublicCoursePlayResponse" />
+  </wsdl:message>
+  <wsdl:message name="PublicCoursePlayMySoapHeader">
+    <wsdl:part name="MySoapHeader" element="tns:MySoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCourseCommentSoapIn">
+    <wsdl:part name="parameters" element="tns:SubInfoCourseComment" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCourseCommentSoapOut">
+    <wsdl:part name="parameters" element="tns:SubInfoCourseCommentResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCourseCommentMySoapHeader">
+    <wsdl:part name="MySoapHeader" element="tns:MySoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCourseCommentListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInfoCourseCommentList" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCourseCommentListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInfoCourseCommentListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCourseCommentListMySoapHeader">
+    <wsdl:part name="MySoapHeader" element="tns:MySoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetPushInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPushInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetPushInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPushInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPushInfoMySoapHeader">
+    <wsdl:part name="MySoapHeader" element="tns:MySoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoListAboutFocusHttpGetIn">
+    <wsdl:part name="showCount" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoListAboutFocusHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfomationListHttpGetIn">
+    <wsdl:part name="pageIndex" type="s:string" />
+    <wsdl:part name="pageSize" type="s:string" />
+    <wsdl:part name="time" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfomationListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoHttpGetIn">
+    <wsdl:part name="infoId" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInfoClickHttpGetIn">
+    <wsdl:part name="infoId" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInfoClickHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCommentHttpGetIn">
+    <wsdl:part name="infoId" type="s:string" />
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+    <wsdl:part name="content" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCommentHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCommentListHttpGetIn">
+    <wsdl:part name="infoId" type="s:string" />
+    <wsdl:part name="pageIndex" type="s:string" />
+    <wsdl:part name="pageSize" type="s:string" />
+    <wsdl:part name="time" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCommentListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicCategoryListHttpGetIn" />
+  <wsdl:message name="GetPublicCategoryListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetNameBySubjectIdHttpGetIn">
+    <wsdl:part name="sid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetNameBySubjectIdHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicCourseListHttpGetIn">
+    <wsdl:part name="subjectId" type="s:string" />
+    <wsdl:part name="page" type="s:string" />
+    <wsdl:part name="pageSize" type="s:string" />
+    <wsdl:part name="time" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicCourseListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="PublicCoursePlayHttpGetIn">
+    <wsdl:part name="courseId" type="s:string" />
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PublicCoursePlayHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCourseCommentHttpGetIn">
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="courseId" type="s:string" />
+    <wsdl:part name="content" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCourseCommentHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCourseCommentListHttpGetIn">
+    <wsdl:part name="courseId" type="s:string" />
+    <wsdl:part name="pageIndex" type="s:string" />
+    <wsdl:part name="pageSize" type="s:string" />
+    <wsdl:part name="time" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCourseCommentListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPushInfoHttpGetIn">
+    <wsdl:part name="relationId" type="s:string" />
+    <wsdl:part name="typeId" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPushInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoListAboutFocusHttpPostIn">
+    <wsdl:part name="showCount" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoListAboutFocusHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfomationListHttpPostIn">
+    <wsdl:part name="pageIndex" type="s:string" />
+    <wsdl:part name="pageSize" type="s:string" />
+    <wsdl:part name="time" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfomationListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoHttpPostIn">
+    <wsdl:part name="infoId" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInfoClickHttpPostIn">
+    <wsdl:part name="infoId" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInfoClickHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCommentHttpPostIn">
+    <wsdl:part name="infoId" type="s:string" />
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+    <wsdl:part name="content" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCommentHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCommentListHttpPostIn">
+    <wsdl:part name="infoId" type="s:string" />
+    <wsdl:part name="pageIndex" type="s:string" />
+    <wsdl:part name="pageSize" type="s:string" />
+    <wsdl:part name="time" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCommentListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicCategoryListHttpPostIn" />
+  <wsdl:message name="GetPublicCategoryListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetNameBySubjectIdHttpPostIn">
+    <wsdl:part name="sid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetNameBySubjectIdHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicCourseListHttpPostIn">
+    <wsdl:part name="subjectId" type="s:string" />
+    <wsdl:part name="page" type="s:string" />
+    <wsdl:part name="pageSize" type="s:string" />
+    <wsdl:part name="time" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicCourseListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="PublicCoursePlayHttpPostIn">
+    <wsdl:part name="courseId" type="s:string" />
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PublicCoursePlayHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCourseCommentHttpPostIn">
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="courseId" type="s:string" />
+    <wsdl:part name="content" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubInfoCourseCommentHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCourseCommentListHttpPostIn">
+    <wsdl:part name="courseId" type="s:string" />
+    <wsdl:part name="pageIndex" type="s:string" />
+    <wsdl:part name="pageSize" type="s:string" />
+    <wsdl:part name="time" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCourseCommentListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPushInfoHttpPostIn">
+    <wsdl:part name="relationId" type="s:string" />
+    <wsdl:part name="typeId" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPushInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="NewsAndInfosManagementSoap">
+    <wsdl:operation name="GetInfoListAboutFocus">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取资讯焦点图</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoListAboutFocusSoapIn" />
+      <wsdl:output message="tns:GetInfoListAboutFocusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfomationList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取资讯列表</wsdl:documentation>
+      <wsdl:input message="tns:GetInfomationListSoapIn" />
+      <wsdl:output message="tns:GetInfomationListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取资讯详情</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoSoapIn" />
+      <wsdl:output message="tns:GetInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInfoClick">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更新咨询点击量</wsdl:documentation>
+      <wsdl:input message="tns:UpdateInfoClickSoapIn" />
+      <wsdl:output message="tns:UpdateInfoClickSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoComment">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">发布评论</wsdl:documentation>
+      <wsdl:input message="tns:SubInfoCommentSoapIn" />
+      <wsdl:output message="tns:SubInfoCommentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCommentList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取信息评论列表</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoCommentListSoapIn" />
+      <wsdl:output message="tns:GetInfoCommentListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCategoryList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取公开课分类</wsdl:documentation>
+      <wsdl:input message="tns:GetPublicCategoryListSoapIn" />
+      <wsdl:output message="tns:GetPublicCategoryListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNameBySubjectId">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取学科名称</wsdl:documentation>
+      <wsdl:input message="tns:GetNameBySubjectIdSoapIn" />
+      <wsdl:output message="tns:GetNameBySubjectIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCourseList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取公开课列表</wsdl:documentation>
+      <wsdl:input message="tns:GetPublicCourseListSoapIn" />
+      <wsdl:output message="tns:GetPublicCourseListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PublicCoursePlay">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取公开课详细信息</wsdl:documentation>
+      <wsdl:input message="tns:PublicCoursePlaySoapIn" />
+      <wsdl:output message="tns:PublicCoursePlaySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoCourseComment">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提交课件评论</wsdl:documentation>
+      <wsdl:input message="tns:SubInfoCourseCommentSoapIn" />
+      <wsdl:output message="tns:SubInfoCourseCommentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCourseCommentList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取评论信息</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoCourseCommentListSoapIn" />
+      <wsdl:output message="tns:GetInfoCourseCommentListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPushInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">推送信息</wsdl:documentation>
+      <wsdl:input message="tns:GetPushInfoSoapIn" />
+      <wsdl:output message="tns:GetPushInfoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="NewsAndInfosManagementHttpGet">
+    <wsdl:operation name="GetInfoListAboutFocus">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取资讯焦点图</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoListAboutFocusHttpGetIn" />
+      <wsdl:output message="tns:GetInfoListAboutFocusHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfomationList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取资讯列表</wsdl:documentation>
+      <wsdl:input message="tns:GetInfomationListHttpGetIn" />
+      <wsdl:output message="tns:GetInfomationListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取资讯详情</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoHttpGetIn" />
+      <wsdl:output message="tns:GetInfoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInfoClick">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更新咨询点击量</wsdl:documentation>
+      <wsdl:input message="tns:UpdateInfoClickHttpGetIn" />
+      <wsdl:output message="tns:UpdateInfoClickHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoComment">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">发布评论</wsdl:documentation>
+      <wsdl:input message="tns:SubInfoCommentHttpGetIn" />
+      <wsdl:output message="tns:SubInfoCommentHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCommentList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取信息评论列表</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoCommentListHttpGetIn" />
+      <wsdl:output message="tns:GetInfoCommentListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCategoryList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取公开课分类</wsdl:documentation>
+      <wsdl:input message="tns:GetPublicCategoryListHttpGetIn" />
+      <wsdl:output message="tns:GetPublicCategoryListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNameBySubjectId">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取学科名称</wsdl:documentation>
+      <wsdl:input message="tns:GetNameBySubjectIdHttpGetIn" />
+      <wsdl:output message="tns:GetNameBySubjectIdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCourseList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取公开课列表</wsdl:documentation>
+      <wsdl:input message="tns:GetPublicCourseListHttpGetIn" />
+      <wsdl:output message="tns:GetPublicCourseListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PublicCoursePlay">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取公开课详细信息</wsdl:documentation>
+      <wsdl:input message="tns:PublicCoursePlayHttpGetIn" />
+      <wsdl:output message="tns:PublicCoursePlayHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoCourseComment">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提交课件评论</wsdl:documentation>
+      <wsdl:input message="tns:SubInfoCourseCommentHttpGetIn" />
+      <wsdl:output message="tns:SubInfoCourseCommentHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCourseCommentList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取评论信息</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoCourseCommentListHttpGetIn" />
+      <wsdl:output message="tns:GetInfoCourseCommentListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPushInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">推送信息</wsdl:documentation>
+      <wsdl:input message="tns:GetPushInfoHttpGetIn" />
+      <wsdl:output message="tns:GetPushInfoHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="NewsAndInfosManagementHttpPost">
+    <wsdl:operation name="GetInfoListAboutFocus">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取资讯焦点图</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoListAboutFocusHttpPostIn" />
+      <wsdl:output message="tns:GetInfoListAboutFocusHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfomationList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取资讯列表</wsdl:documentation>
+      <wsdl:input message="tns:GetInfomationListHttpPostIn" />
+      <wsdl:output message="tns:GetInfomationListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取资讯详情</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoHttpPostIn" />
+      <wsdl:output message="tns:GetInfoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInfoClick">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更新咨询点击量</wsdl:documentation>
+      <wsdl:input message="tns:UpdateInfoClickHttpPostIn" />
+      <wsdl:output message="tns:UpdateInfoClickHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoComment">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">发布评论</wsdl:documentation>
+      <wsdl:input message="tns:SubInfoCommentHttpPostIn" />
+      <wsdl:output message="tns:SubInfoCommentHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCommentList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取信息评论列表</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoCommentListHttpPostIn" />
+      <wsdl:output message="tns:GetInfoCommentListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCategoryList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取公开课分类</wsdl:documentation>
+      <wsdl:input message="tns:GetPublicCategoryListHttpPostIn" />
+      <wsdl:output message="tns:GetPublicCategoryListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNameBySubjectId">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取学科名称</wsdl:documentation>
+      <wsdl:input message="tns:GetNameBySubjectIdHttpPostIn" />
+      <wsdl:output message="tns:GetNameBySubjectIdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCourseList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取公开课列表</wsdl:documentation>
+      <wsdl:input message="tns:GetPublicCourseListHttpPostIn" />
+      <wsdl:output message="tns:GetPublicCourseListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PublicCoursePlay">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取公开课详细信息</wsdl:documentation>
+      <wsdl:input message="tns:PublicCoursePlayHttpPostIn" />
+      <wsdl:output message="tns:PublicCoursePlayHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoCourseComment">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提交课件评论</wsdl:documentation>
+      <wsdl:input message="tns:SubInfoCourseCommentHttpPostIn" />
+      <wsdl:output message="tns:SubInfoCourseCommentHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCourseCommentList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取评论信息</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoCourseCommentListHttpPostIn" />
+      <wsdl:output message="tns:GetInfoCourseCommentListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPushInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">推送信息</wsdl:documentation>
+      <wsdl:input message="tns:GetPushInfoHttpPostIn" />
+      <wsdl:output message="tns:GetPushInfoHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NewsAndInfosManagementSoap" type="tns:NewsAndInfosManagementSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetInfoListAboutFocus">
+      <soap:operation soapAction="http://tempuri.org/GetInfoListAboutFocus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetInfoListAboutFocusMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfomationList">
+      <soap:operation soapAction="http://tempuri.org/GetInfomationList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetInfomationListMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfo">
+      <soap:operation soapAction="http://tempuri.org/GetInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetInfoMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInfoClick">
+      <soap:operation soapAction="http://tempuri.org/UpdateInfoClick" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UpdateInfoClickMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoComment">
+      <soap:operation soapAction="http://tempuri.org/SubInfoComment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SubInfoCommentMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCommentList">
+      <soap:operation soapAction="http://tempuri.org/GetInfoCommentList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetInfoCommentListMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCategoryList">
+      <soap:operation soapAction="http://tempuri.org/GetPublicCategoryList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetPublicCategoryListMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNameBySubjectId">
+      <soap:operation soapAction="http://tempuri.org/GetNameBySubjectId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetNameBySubjectIdMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCourseList">
+      <soap:operation soapAction="http://tempuri.org/GetPublicCourseList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetPublicCourseListMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PublicCoursePlay">
+      <soap:operation soapAction="http://tempuri.org/PublicCoursePlay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:PublicCoursePlayMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoCourseComment">
+      <soap:operation soapAction="http://tempuri.org/SubInfoCourseComment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SubInfoCourseCommentMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCourseCommentList">
+      <soap:operation soapAction="http://tempuri.org/GetInfoCourseCommentList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetInfoCourseCommentListMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPushInfo">
+      <soap:operation soapAction="http://tempuri.org/GetPushInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetPushInfoMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NewsAndInfosManagementSoap12" type="tns:NewsAndInfosManagementSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetInfoListAboutFocus">
+      <soap12:operation soapAction="http://tempuri.org/GetInfoListAboutFocus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetInfoListAboutFocusMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfomationList">
+      <soap12:operation soapAction="http://tempuri.org/GetInfomationList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetInfomationListMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetInfoMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInfoClick">
+      <soap12:operation soapAction="http://tempuri.org/UpdateInfoClick" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UpdateInfoClickMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoComment">
+      <soap12:operation soapAction="http://tempuri.org/SubInfoComment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:SubInfoCommentMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCommentList">
+      <soap12:operation soapAction="http://tempuri.org/GetInfoCommentList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetInfoCommentListMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCategoryList">
+      <soap12:operation soapAction="http://tempuri.org/GetPublicCategoryList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetPublicCategoryListMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNameBySubjectId">
+      <soap12:operation soapAction="http://tempuri.org/GetNameBySubjectId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetNameBySubjectIdMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCourseList">
+      <soap12:operation soapAction="http://tempuri.org/GetPublicCourseList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetPublicCourseListMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PublicCoursePlay">
+      <soap12:operation soapAction="http://tempuri.org/PublicCoursePlay" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:PublicCoursePlayMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoCourseComment">
+      <soap12:operation soapAction="http://tempuri.org/SubInfoCourseComment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:SubInfoCourseCommentMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCourseCommentList">
+      <soap12:operation soapAction="http://tempuri.org/GetInfoCourseCommentList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetInfoCourseCommentListMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPushInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetPushInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetPushInfoMySoapHeader" part="MySoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NewsAndInfosManagementHttpGet" type="tns:NewsAndInfosManagementHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetInfoListAboutFocus">
+      <http:operation location="/GetInfoListAboutFocus" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfomationList">
+      <http:operation location="/GetInfomationList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfo">
+      <http:operation location="/GetInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInfoClick">
+      <http:operation location="/UpdateInfoClick" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoComment">
+      <http:operation location="/SubInfoComment" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCommentList">
+      <http:operation location="/GetInfoCommentList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCategoryList">
+      <http:operation location="/GetPublicCategoryList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNameBySubjectId">
+      <http:operation location="/GetNameBySubjectId" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCourseList">
+      <http:operation location="/GetPublicCourseList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PublicCoursePlay">
+      <http:operation location="/PublicCoursePlay" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoCourseComment">
+      <http:operation location="/SubInfoCourseComment" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCourseCommentList">
+      <http:operation location="/GetInfoCourseCommentList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPushInfo">
+      <http:operation location="/GetPushInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NewsAndInfosManagementHttpPost" type="tns:NewsAndInfosManagementHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetInfoListAboutFocus">
+      <http:operation location="/GetInfoListAboutFocus" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfomationList">
+      <http:operation location="/GetInfomationList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfo">
+      <http:operation location="/GetInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInfoClick">
+      <http:operation location="/UpdateInfoClick" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoComment">
+      <http:operation location="/SubInfoComment" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCommentList">
+      <http:operation location="/GetInfoCommentList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCategoryList">
+      <http:operation location="/GetPublicCategoryList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNameBySubjectId">
+      <http:operation location="/GetNameBySubjectId" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicCourseList">
+      <http:operation location="/GetPublicCourseList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PublicCoursePlay">
+      <http:operation location="/PublicCoursePlay" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubInfoCourseComment">
+      <http:operation location="/SubInfoCourseComment" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCourseCommentList">
+      <http:operation location="/GetInfoCourseCommentList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPushInfo">
+      <http:operation location="/GetPushInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NewsAndInfosManagement">
+    <wsdl:port name="NewsAndInfosManagementSoap" binding="tns:NewsAndInfosManagementSoap">
+      <soap:address location="http://appservicedevelopment.dfhe.com/NewsAndInfosManagement.asmx" />
+    </wsdl:port>
+    <wsdl:port name="NewsAndInfosManagementSoap12" binding="tns:NewsAndInfosManagementSoap12">
+      <soap12:address location="http://appservicedevelopment.dfhe.com/NewsAndInfosManagement.asmx" />
+    </wsdl:port>
+    <wsdl:port name="NewsAndInfosManagementHttpGet" binding="tns:NewsAndInfosManagementHttpGet">
+      <http:address location="http://appservicedevelopment.dfhe.com/NewsAndInfosManagement.asmx" />
+    </wsdl:port>
+    <wsdl:port name="NewsAndInfosManagementHttpPost" binding="tns:NewsAndInfosManagementHttpPost">
+      <http:address location="http://appservicedevelopment.dfhe.com/NewsAndInfosManagement.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IRepository\bin\Release\Trial.Backend.IRepository.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IRepository\bin\Release\Trial.Backend.IRepository.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IRepository\obj\Release\Trial.Backend.IRepository.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IRepository\obj\Release\Trial.Backend.IRepository.pdb

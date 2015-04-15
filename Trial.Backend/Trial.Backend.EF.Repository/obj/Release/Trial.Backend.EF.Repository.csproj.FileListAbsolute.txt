@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Release\Trial.Backend.EF.Repository.dll.config
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Release\Trial.Backend.EF.Repository.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Release\Trial.Backend.EF.Repository.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Release\EntityFramework.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Release\Trial.Backend.IRepository.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Release\Trial.Backend.Model.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Release\Trial.Backend.IRepository.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Release\Trial.Backend.Model.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Release\EntityFramework.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Release\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\obj\Release\Trial.Backend.EF.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\obj\Release\Trial.Backend.EF.Repository.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\obj\Release\Trial.Backend.EF.Repository.pdb

@@ -1,0 +1,32 @@
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.EF.Repository.dll.config
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.EF.Repository.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.EF.Repository.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\EntityFramework.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\EntityFramework.SqlServer.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\EntityFramework.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\EntityFramework.SqlServer.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\obj\Debug\Trial.Backend.EF.Repository.csprojResolveAssemblyReference.cache
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\obj\Debug\Trial.Backend.EF.Repository.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\obj\Debug\Trial.Backend.EF.Repository.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.IRepository.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.Model.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.IRepository.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.Model.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\zh-Hans\EntityFramework.resources.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.EF.Repository.dll.config
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.EF.Repository.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.EF.Repository.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.IRepository.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.Model.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.IRepository.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\Trial.Backend.Model.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\obj\Debug\Trial.Backend.EF.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\obj\Debug\Trial.Backend.EF.Repository.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.EF.Repository\obj\Debug\Trial.Backend.EF.Repository.pdb

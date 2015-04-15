@@ -1,0 +1,81 @@
+<ion-side-menus>
+    <ion-side-menu-content drag-content="true">
+        <ion-nav-bar class="bar bar-positive">
+            <ion-nav-buttons side="right">
+                <button class="button button-icon icon ion-android-person" menu-toggle="right"></button>
+            </ion-nav-buttons>
+            <ion-nav-buttons side="left">
+                <button class="button button-icon icon ion-navicon-round" menu-toggle="left" ng-show="enableCategoryMenu"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-tabs ng-class="{'tabs-icon-top tabs-bottom tabs-striped tabs-color-positive tabs-dark':true,'tabs-item-hide':hideTabs}">
+            <ion-tab title="资讯" icon="ion-navicon" href="#/tab/home">
+                <ion-nav-view name="tab-info"></ion-nav-view>
+            </ion-tab>
+            <ion-tab title="公开课" icon="ion-social-youtube" href="#/tab/lesson/0">
+                <ion-nav-view name="tab-lesson">
+                </ion-nav-view>
+            </ion-tab>
+            <ion-tab title="在线学习" icon="ion-videocamera" href="#/tab/onlinestd">
+                <ion-nav-view name="tab-onlineStd"></ion-nav-view>
+            </ion-tab>
+            <ion-tab title="发现" icon="ion-radio-waves" href="#/tab/discover">
+                <ion-nav-view name="tab-discover"></ion-nav-view>
+            </ion-tab>
+            <ion-tab title="我的习题" icon="ion-ios-folder" href="#/tab/exercises">
+                <ion-nav-view name="tab-exercises"></ion-nav-view>
+            </ion-tab>
+        </ion-tabs>
+    </ion-side-menu-content>
+    <ion-side-menu side="right" class="stable-bg dark-border">
+        <!--  <header class="bar bar-header bar-stable">
+           <div style="height:300px"></div>
+        </header> -->
+        <ion-content>        
+            <ion-list>
+                <a ui-sref="login">
+                    <div class="item item-image">
+                        <img src="/img/resource-cordova.png">
+                    </div>
+                </a>
+                <li class="item item-toggle">
+                    Wifi下观看
+                    <label class="toggle toggle-positive">
+                        <input type="checkbox">
+                        <div class="track">
+                            <div class="handle"></div>
+                        </div>
+                    </label>
+                </li>
+                <li class="item item-toggle">
+                    推送
+                    <label class="toggle toggle-positive">
+                        <input type="checkbox">
+                        <div class="track">
+                            <div class="handle"></div>
+                        </div>
+                    </label>
+                </li>
+                <ion-item class="item item-icon-right" href="#/app/edit-budget" menu-close>
+                    <i class="icon fa fa-bank ion-ios-arrow-right"></i>微博绑定
+                </ion-item>
+                <ion-item class="item item-icon-right" href="#/app/edit-budget" menu-close>
+                    <i class="icon fa fa-bank ion-ios-arrow-right"></i>关于
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+    <ion-side-menu side="left" class="dark-bg dark-border" is-enabled="enableCategoryMenu">
+        <header class="bar bar-header bar-dark">
+            <h1 class="title">公开课分类</h1>
+        </header>
+        <ion-content class="has-header">
+            <ion-list>
+                <ion-item class="item item-dark item-icon-right" href="#/tab/lesson/{{category.SubjectId}}" menu-close ng-repeat="category in categories">
+                    <i class="icon fa fa-bank ion-ios-arrow-right"></i>{{category.SubjectName}}
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>
+        <!-- <ion-nav-view name="login-view"></ion-nav-view> -->

@@ -1,0 +1,8 @@
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.IService\bin\Debug\Trial.Backend.IService.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.IService\bin\Debug\Trial.Backend.IService.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.IService\obj\Debug\Trial.Backend.IService.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.IService\obj\Debug\Trial.Backend.IService.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IService\bin\Debug\Trial.Backend.IService.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IService\bin\Debug\Trial.Backend.IService.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IService\obj\Debug\Trial.Backend.IService.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IService\obj\Debug\Trial.Backend.IService.pdb

@@ -1,0 +1,18 @@
+<ion-view view-title="公开课">
+    <ion-content class="padding">
+        <ion-refresher pulling-text="Pull to refresh..." on-refresh="getCourses()">
+        </ion-refresher>
+        <div class="card" ng-repeat="course in courses">
+            <a class="item item-thumbnail-left" href="#/tab/lesson/1/{{course.CourseId}}">
+                <img src="{{course.Image}}">
+                <div class="row">
+                    <div class="col col-50"><i class="icon ion-ios-clock"></i> {{course.PublishDate}}|</div>
+                    <div class="col"> <i class="icon ion-android-arrow-dropright-circle"></i> {{course.Hours}}分钟</div>
+                </div>
+                <h2>{{course.CourseName}}</h2>
+                <!-- <p>{{course.Description}}</p> -->
+            </a>
+        </div>
+        <ion-infinite-scroll ng-if="!noMoreItemsAvailable" on-infinite="fetchMore()" distance="1%"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>

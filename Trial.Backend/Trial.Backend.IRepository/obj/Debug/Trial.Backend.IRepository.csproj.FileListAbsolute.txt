@@ -1,0 +1,8 @@
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.IRepository\bin\Debug\Trial.Backend.IRepository.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.IRepository\bin\Debug\Trial.Backend.IRepository.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.IRepository\obj\Debug\Trial.Backend.IRepository.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.IRepository\obj\Debug\Trial.Backend.IRepository.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IRepository\bin\Debug\Trial.Backend.IRepository.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IRepository\bin\Debug\Trial.Backend.IRepository.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IRepository\obj\Debug\Trial.Backend.IRepository.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IRepository\obj\Debug\Trial.Backend.IRepository.pdb

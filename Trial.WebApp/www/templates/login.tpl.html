@@ -1,0 +1,38 @@
+<ion-view view-title="登录" hide-nav-bar="true">
+<!--     <ion-nav-bar class="bar-positive">
+        <a class="button icon-left ion-chevron-left button-clear button-dark">Back</a>
+        <ion-nav-back-button class="button-clear">
+            <i class="ion-arrow-left-c"></i> Back
+        </ion-nav-back-button>
+    </ion-nav-bar> -->
+    <div class="bar bar-header bar-positive">
+        <button class="button icon-left ion-chevron-left button-clear button-light" ng-click="goback()"></button>
+        <h1 class="title">登录</h1>
+    </div>
+    <ion-content class="has-header">
+        <div class="list">
+            <label class="item item-input">
+                <i class="icon ion-ios-person-outline placeholder-icon"></i>
+                <input type="text" placeholder="请输入用户名/手机号/邮箱">
+            </label>
+            <label class="item item-input">
+                <i class="icon ion-ios-locked-outline placeholder-icon"></i>
+                <input type="text" placeholder="密码-数字加字母">
+            </label>
+        </div>
+        <div class="row">
+            <div class="col col-50">
+                <a class="button button-block button-calm" href="#/tab/home"> 登录</a>
+            </div>
+            <div class="col">
+                <a class="button button-block button-positive" href="#/tab/home"> 注册</a>
+            </div>
+        </div>
+        <!--   <span  class="row ">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Flux Capacitor
+        </span> -->
+    </ion-content>
+</ion-view>

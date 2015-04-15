@@ -1,0 +1,18 @@
+<ion-view view-title="资讯评论" hide-nav-bar="false">
+    <div class="bar bar-footer bar-stable">
+        <a class="button icon-left ion-chevron-left button-clear button-dark" ng-click="goBack()"></a>
+        <label class="item item-input">
+            <i class="icon ion-compose placeholder-icon"></i>
+            <input type="text" placeholder="来说点什么吧">
+        </label>
+    </div>
+    <ion-content>
+        <div class="list">
+            <a class="item item-avatar" href="#" ng-repeat = "comment in comments"> 
+                <img src="{{comment.HeadImg}}">
+                <h2>{{comment.UserName}}</h2>
+                <p>{{comment.Remark}}</p>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>

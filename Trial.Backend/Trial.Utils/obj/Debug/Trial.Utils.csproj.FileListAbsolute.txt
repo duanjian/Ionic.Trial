@@ -1,0 +1,12 @@
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Utils\bin\Debug\Trial.Utils.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Utils\bin\Debug\Trial.Utils.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Utils\bin\Debug\Newtonsoft.Json.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Utils\bin\Debug\Newtonsoft.Json.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Utils\obj\Debug\Trial.Utils.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Utils\obj\Debug\Trial.Utils.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Utils\bin\Debug\Trial.Utils.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Utils\bin\Debug\Trial.Utils.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Utils\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Utils\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Utils\obj\Debug\Trial.Utils.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Utils\obj\Debug\Trial.Utils.pdb

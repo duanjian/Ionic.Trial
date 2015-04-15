@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IService\bin\Release\Trial.Backend.IService.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IService\bin\Release\Trial.Backend.IService.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IService\obj\Release\Trial.Backend.IService.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.IService\obj\Release\Trial.Backend.IService.pdb

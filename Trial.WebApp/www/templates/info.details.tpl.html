@@ -1,0 +1,29 @@
+<ion-view hide-nav-bar="true">
+    <div class="bar bar-footer bar-stable">
+        <a class="button icon-left ion-chevron-left button-clear button-dark" ng-click="goBack()"></a>
+        <label class="item item-input">
+            <i class="icon ion-compose placeholder-icon"></i>
+            <input type="text" placeholder="来说点什么吧">
+        </label>
+        <a class="button icon-left ion-ios-chatboxes-outline button-clear button-dark" href="#/tab/info/{{info.Id}}/0/comment"></a>
+        <a class="button icon-left ion-ios-settings button-clear button-dark"></a>
+        <a class="button icon-left ion-android-share-alt button-clear button-dark" share-Sheet></a>
+    </div>
+    <ion-content class="padding">
+        <div class="item">
+            <img class="full-image" src="{{ info.ImageUrl }}">
+        </div>
+        <h2>{{ info.Title }}</h2>
+        <div class="row">
+            <div class="col col-75">
+                <h6>{{info.Date}}<h6>       
+            </div>
+            <div class="col">
+                <h6><i class="icon ion-eye"></i>{{info.Hits}}</h6>
+            </div>
+        </div>
+        <hr>
+        <div ng-bind-html="info.Content">
+        </div>
+    </ion-content>
+</ion-view>

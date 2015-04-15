@@ -1,0 +1,49 @@
+<ion-view hide-nav-bar="true">
+    <div class="bar bar-footer bar-stable">
+        <a class="button icon-left ion-chevron-left button-clear button-dark" ng-click="goBack()"></a>
+        <label class="item item-input">
+            <i class="icon ion-compose placeholder-icon"></i>
+            <input type="text" placeholder="来说点什么吧">
+        </label>
+        <a class="button icon-left ion-android-share-alt button-clear button-dark pull-right" share-Sheet></a>
+    </div>
+    <div>
+         <video src="http://demo.sc.chinaz.com//Files/DownLoad/flash2/201504/flash3569.swf" class="full-image" controls="controls">
+            您的浏览器不支持 video 标签。
+        </video>
+        <!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="100%" height="30%">
+            <param name=movie value="*.swf">
+            <param name=quality value=High>
+            <param name="_cx" value="12383">
+            <param name="_cy" value="1588">
+            <param name="FlashVars" value>
+            <param name="Src" ref value="*.swf">
+            <param name="WMode" value="Window">
+            <param name="Play" value="-1">
+            <param name="Loop" value="-1">
+            <param name="SAlign" value>
+            <param name="Menu" value="-1">
+            <param name="Base" value>
+            <param name="AllowScriptAccess" value="always">
+            <param name="Scale" value="ShowAll">
+            <param name="DeviceFont" value="0">
+            <param name="EmbedMovie" value="0">
+            <param name="BGColor" value>
+            <param name="SWRemote" value>
+            <param name="MovieData" value>
+            <embed src="http://demo.sc.chinaz.com//Files/DownLoad/flash2/201504/flash3569.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="100%" height="300">
+            </embed>
+        </object> -->
+    </div>
+    <div>
+        <!--  <div bs-active-pane="tabs.activeTab" bs-tabs>
+            <div ng-repeat="tab in tabs" title="{{ tab.title }}" disabled="{{ tab.disabled }}" ng-bind="tab.content" bs-pane>
+            </div>
+        </div> -->
+        <div>
+        	<h3>{{course.CourseName}}</h3>
+        </div>
+        <hr>
+        <div ng-bind-html="course.Content"></div>
+    </div>
+</ion-view>

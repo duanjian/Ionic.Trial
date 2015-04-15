@@ -1,0 +1,11 @@
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.RemoteService\bin\Debug\Trial.Backend.RemoteService.dll.config
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.RemoteService\bin\Debug\Trial.Backend.RemoteService.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.RemoteService\bin\Debug\Trial.Backend.RemoteService.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.RemoteService\obj\Debug\Trial.Backend.RemoteService.csprojResolveAssemblyReference.cache
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.RemoteService\obj\Debug\Trial.Backend.RemoteService.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.RemoteService\obj\Debug\Trial.Backend.RemoteService.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.RemoteService\bin\Debug\Trial.Backend.RemoteService.dll.config
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.RemoteService\bin\Debug\Trial.Backend.RemoteService.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.RemoteService\bin\Debug\Trial.Backend.RemoteService.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.RemoteService\obj\Debug\Trial.Backend.RemoteService.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.RemoteService\obj\Debug\Trial.Backend.RemoteService.pdb

@@ -1,0 +1,10 @@
+{
+  "name": "Trial.WebApp",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.0.0-rc.2"
+  },
+  "dependencies": {
+    "angular-strap": "~2.2.1"
+  }
+}

@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Utils\bin\Release\Trial.Utils.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Utils\bin\Release\Trial.Utils.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Utils\bin\Release\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Utils\bin\Release\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Utils\obj\Release\Trial.Utils.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Utils\obj\Release\Trial.Utils.pdb

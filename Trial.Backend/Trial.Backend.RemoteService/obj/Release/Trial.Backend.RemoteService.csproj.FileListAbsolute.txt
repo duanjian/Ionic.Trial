@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.RemoteService\bin\Release\Trial.Backend.RemoteService.dll.config
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.RemoteService\bin\Release\Trial.Backend.RemoteService.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.RemoteService\bin\Release\Trial.Backend.RemoteService.XmlSerializers.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.RemoteService\bin\Release\Trial.Backend.RemoteService.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.RemoteService\obj\Release\Trial.Backend.RemoteService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.RemoteService\obj\Release\Trial.Backend.RemoteService.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.RemoteService\obj\Release\Trial.Backend.RemoteService.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.RemoteService\obj\Release\Trial.Backend.RemoteService.XmlSerializers.dll

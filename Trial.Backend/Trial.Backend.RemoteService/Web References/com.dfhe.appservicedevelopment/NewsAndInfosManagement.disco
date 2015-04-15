@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://appservicedevelopment.dfhe.com/NewsAndInfosManagement.asmx?wsdl" docRef="http://appservicedevelopment.dfhe.com/NewsAndInfosManagement.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://appservicedevelopment.dfhe.com/NewsAndInfosManagement.asmx" xmlns:q1="http://tempuri.org/" binding="q1:NewsAndInfosManagementSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://appservicedevelopment.dfhe.com/NewsAndInfosManagement.asmx" xmlns:q2="http://tempuri.org/" binding="q2:NewsAndInfosManagementSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

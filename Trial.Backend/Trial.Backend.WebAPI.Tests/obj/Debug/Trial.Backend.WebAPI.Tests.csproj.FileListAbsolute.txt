@@ -1,0 +1,120 @@
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\obj\Debug\Trial.Backend.WebAPI.Tests.csprojResolveAssemblyReference.cache
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.WebAPI.Tests.dll.config
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.WebAPI.Tests.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.WebAPI.Tests.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Newtonsoft.Json.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Net.Http.Formatting.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Helpers.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Http.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Http.WebHost.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Mvc.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Razor.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.WebPages.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.WebAPI.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Optimization.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.RemoteService.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.Configuration.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Autofac.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Autofac.Integration.WebApi.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.IRepository.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.EF.Repository.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\EntityFramework.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.WebAPI.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Newtonsoft.Json.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Net.Http.Formatting.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Http.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Http.WebHost.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Helpers.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Mvc.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Razor.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.WebPages.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Optimization.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.RemoteService.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.Configuration.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Autofac.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.IRepository.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.EF.Repository.pdb
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\EntityFramework.xml
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.Http.WebHost.resources.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\obj\Debug\Trial.Backend.WebAPI.Tests.dll
+d:\users\administrator\documents\visual studio 2012\Projects\Trial.Backend\Trial.Backend.WebAPI.Tests\obj\Debug\Trial.Backend.WebAPI.Tests.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.WebAPI.Tests.dll.config
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.WebAPI.Tests.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.WebAPI.Tests.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.WebAPI.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.RemoteService.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.Configuration.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Autofac.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Autofac.Integration.WebApi.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.IRepository.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.EF.Repository.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.WebAPI.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.RemoteService.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.Configuration.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Autofac.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.IRepository.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.EF.Repository.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\obj\Debug\Trial.Backend.WebAPI.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\obj\Debug\Trial.Backend.WebAPI.Tests.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\obj\Debug\Trial.Backend.WebAPI.Tests.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Cors.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.RemoteService.XmlSerializers.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.Model.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Utils.dll
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Backend.Model.pdb
+C:\Users\Administrator\Desktop\Trial\SourceCode\Trial.Backend\Trial.Backend.WebAPI.Tests\bin\Debug\Trial.Utils.pdb

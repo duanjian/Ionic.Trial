@@ -1,0 +1,23 @@
+<ion-view view-title="资讯">
+    <ion-content class="padding">
+        <ion-refresher pulling-text="Pull to refresh..." on-refresh="getInfos()">
+        </ion-refresher>
+        <div class="item item-image">
+            <img src="img/resource-cordova.png">
+        </div>
+        <ion-list>
+            <ion-item item="item" href="#/tab/info/{{info.InfoId}}/{{info.PubDate | date:'yyyy-MM-dd'}}" class="item item-thumbnail-left" ng-repeat="info in infos">
+                <img src="{{info.Image | emptyImg}}">
+                <h2>{{info.Title}}</h2>
+                <p>{{info.Description}}</p>
+                <div class="row padding-top">
+                    <div class="col col-50">
+                        <h6><i class="icon ion-eye"></i>{{ info.Hits }}</h6></div>
+                    <div class="col">
+                        <h6>{{info.PubDate | date:'yyyy-MM-dd'}}<h6></div>
+                </div>
+            </ion-item>
+        </ion-list>
+        <ion-infinite-scroll ng-if="!noMoreItemsAvailable" on-infinite="fetchMore()" distance="1%"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>
