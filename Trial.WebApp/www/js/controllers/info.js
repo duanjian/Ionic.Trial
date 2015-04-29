@@ -69,7 +69,7 @@
                         }
 
                     }, function(res) {
-
+                        
                     });
 
                     _this.scope.$broadcast('scroll.infiniteScrollComplete');
